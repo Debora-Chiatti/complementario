@@ -294,13 +294,52 @@ background: linear-gradient(to left, rgb(191, 51, 65), rgb(255, 216, 43));
 
 
 /*------Contacos.html-----*/
+
+.title-contacto{
+	display: flex;
+	justify-content: center;
+	color: rgb(98, 14, 231);
+	font-family: 'noto serif', serif;
+}
+
+.text-font{
+	font-size: 2.5em;
+}
+
 .input-consulta{
 	display: flex;
-	padding-top: 5%;
-	padding-bottom: 3%;
+	padding-top: 2%;
+	padding-bottom: 1%;
 	margin-left: 5%;
 	margin-right: 5%;
 
+}
+
+
+.form-label{
+	display: flex;
+	width: 30%;
+	font-size: 1.5em;
+	color: rgb(98, 14, 231);
+	font-family: 'noto serif', serif;
+}
+
+.button-div{
+	display: flex;
+	justify-content: center;
+}
+
+.button-submit{
+	display: flex;
+	justify-items: center;
+	padding: 1% 2%;
+	margin-bottom: 2%;
+	background-color: rgb(98, 14, 231);
+	color: #fff;
+	font-family: 'noto serif', serif;
+	font-size: 1.5em;
+	border: 2px solid #fff;
+	border-radius: 7%;
 }
 
 /*-----------Main--------*/

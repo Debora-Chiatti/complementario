@@ -48,28 +48,37 @@
 
     <main class="main">
 
+        <div class="title-contacto">
+            <h3 class="text-font">Dejanos Tu Consulta</h3>
+        </div>
+
         <article container-fluid>
         <div class="mb-3 input-consulta">
-            <label for="formFile" class="form-label"> Nombre </label>
-            <input class="form-control" type="file" id="formFile">
-          </div>
-          <div class="mb-3 input-consulta">
-            <label for="formFileMultiple" class="form-label"> Apellido </label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple>
-          </div>
-          <div class="mb-3 input-consulta">
+            <label for="formFile form-label" class="form-label"> Nombre </label>
+            <input class="form-control" type="text" id="formFile">
+        </div>
+        <div class="mb-3 input-consulta">
+            <label for="formFileMultiple form-label" class="form-label"> Apellido </label>
+            <input class="form-control" type="text" id="formFile" multiple>
+        </div>
+        <div class="mb-3 input-consulta">
             <label for="formFileDisabled" class="form-label"> Email </label>
-            <input class="form-control" type="file" id="formFileDisabled" disabled>
-          </div>
-          <div class="mb-3 input-consulta">
-            <label for="formFileSm" class="form-label"> úmero de Contacto </label>
-            <input class="form-control form-control-sm" id="formFileSm" type="file">
-          </div>
-          <div class="mb-3 input-consulta">
+            <input class="form-control" type="email">
+        </div>
+        <div class="mb-3 input-consulta">
+            <label for="formFileDisabled" class="form-label"> Número de Contacto </label>
+            <input class="form-control"  type="number" id="formFile">
+        </div>
+        <div class="mb-3 input-consulta">
             <label for="formFileLg" class="form-label"> Escribí tu consulta </label>
-            <input class="form-control form-control-lg" id="formFileLg" type="file">
-          </div>
+            <input class="form-control form-control-lg" type="text" id="formFile"">
+        </div>
+
+        <div class="button-div"><input class="button-submit" type="submit"></div>
         </article>
+
+
+
     </main>
 
 
